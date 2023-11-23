@@ -1,0 +1,61 @@
+
+.card {
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+    /* padding: 20px; */
+}
+form {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.card-header label {
+    margin: 0;
+    font-size: 18px; 
+    font-weight: bold;
+}
+.main {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid; */
+    /* padding: 20px; */
+}
